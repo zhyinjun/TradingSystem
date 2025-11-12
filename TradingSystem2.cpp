@@ -5,7 +5,7 @@
 #include "stdafx.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
-#include "TradingSystem.h"
+#include "TradingSystem2.h"
 #include "MainFrm.h"
 
 #include "TradingSystemDoc.h"
@@ -33,7 +33,7 @@ END_MESSAGE_MAP()
 
 CTradingSystemApp::CTradingSystemApp(){
 	SetAppID(_T("TradingSystem.AppID.NoVersion"));
-	// Áõ±Ç»ç API ÃÊ±âÈ­
+	// ï¿½ï¿½ï¿½Ç»ï¿½ API ï¿½Ê±ï¿½È­
 	this->xingAPI = new IXingAPI();
 	this->xingAPI->Init();
 
